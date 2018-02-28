@@ -11,7 +11,7 @@ interface Person {
 }
 
 function greeter(person: Person) {
-  return "Hello #{person.firstName} #{person.lastName}";
+  return 'Hello' + ' ' + person.firstName + ' ' + person.lastName;
 }
 
 let user = new Student('Ultra', 'B.', 'Bird'); 
